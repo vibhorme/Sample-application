@@ -1,0 +1,28 @@
+.dt-button {
+    color: #fafbfd;
+    background-color: #5f4fff;
+    border-radius: 4px;
+    outline: none;
+    min-width: 105px;
+    min-height: 29px;
+    font-size: 15px;
+    //font-weight: 600;
+    //margin-bottom: 10px;
+
+    &:hover {
+        background-color: #554db1;
+    }
+
+    &-icon {
+        height: 72%;
+        margin-right: -5px;
+    }
+
+    &__modify {
+        border: 1px solid;
+    }
+
+    &__large {
+        padding: 8px 25px;
+    }
+}

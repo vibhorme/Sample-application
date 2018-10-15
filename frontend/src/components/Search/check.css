@@ -1,0 +1,114 @@
+ 
+ .check {
+    width: 40%;
+    margin: 12px;
+    border: 0;
+    border-radius: 40px;
+    background: #ff218d;
+    background: -webkit-gradient(linear, left top, right top, from(#f2b040), to(#ff218d));
+    background: -webkit-linear-gradient(left, #f2b040 0%, #ff218d 100%);
+    background: -o-linear-gradient(left, #f2b040 0%, #ff218d 100%);
+    background: linear-gradient(to right, #f2b040 0%, #ff218d 100%);
+    padding: 17px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    background-size: 270px 1px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+ }
+
+ .search {
+    background: #f6f6f6;
+    padding: 40px 25px;
+    border-radius: 2px;
+    width: 92%;
+    text-align: center;
+    -webkit-box-shadow: 0 0 10px #565656;
+    box-shadow: 0 0 10px #565656;
+}
+.login {
+    width: 100%;
+    height: 100vh;
+    /* background: #005c97;
+    background: linear-gradient(to top, #005c97, #363795); */
+    /* background: #0575e6;
+    background: linear-gradient(to top, #0575e6, #021b79); */
+    background: #1366c0;
+    background: linear-gradient(45deg, #1366c0 0%, #5e00ca 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.login__head {
+    color: #234156;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.login__info {
+    color: #707070;
+    font-size: 12px;
+    margin: 5px 0 15px;
+}
+
+.login__field-wrapper {
+    margin-bottom: 15px;
+}
+
+.login__field-input {
+    position: relative;
+}
+
+.login__field-wrapper input {
+    width: 100%;
+    width: 100%;
+    color: #434343;
+    border: 0;
+    border-radius: 40px;
+    background: #fff;
+    /* text-align: center; */
+    padding: 15px 15px 15px 45px;
+    box-shadow: 0 0 7px 0px #e4eaef;
+}
+
+.login__field-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+}
+
+.login__field-error {
+    color: #f00;
+    font-size: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.login__submit {
+    width: 100%;
+    border: 0;
+    border-radius: 40px;
+    background: #ff218d;
+    background: linear-gradient(to right, #f2b040 0%, #ff218d 100%);
+    padding: 17px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    background-size: 270px 1px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.login__submit:hover {
+    background-size: 400px 1px;
+}
+
+

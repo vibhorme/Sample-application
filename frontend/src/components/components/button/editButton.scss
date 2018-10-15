@@ -1,0 +1,16 @@
+.dt-button1 {
+    color: #4d83fb;
+    border-radius: 4px;
+    outline: none;
+    font-size: 15px;
+    margin-left: -16px;
+
+    &-icon {
+        height: 100%;
+        width: 100%;
+        margin-right: -9px;
+    }
+}
+.dt-editc {
+    display: flex;
+}

@@ -1,0 +1,47 @@
+@import "../../assets/styles/variables.scss";
+
+.dt-select {
+    &__box {
+        min-width: 30%;
+    }
+}
+
+.dt-input__select {
+    & label {
+        font-size: 14px;
+        & + div {
+            margin-top: 11px;
+            color: $fontColor;
+            &::before {
+                border-bottom: 1px solid $fontColor;
+            }
+        }
+    }
+}
+.hint {
+    font-size: 10px;
+    color: grey;
+    margin-top: 2px;
+}
+
+/*div > .MuiFormControl-root-1 {
+    & label + .MuiInput-formControl-18 {
+        margin-top: 10px;
+    }
+
+    & .MuiInput-underline-21:before {
+        border-bottom: 1px solid $fontColor;
+    }
+
+    & label {
+        font-size: 14px;
+    }
+
+    & .MuiInput-underline-26:before {
+        border-bottom-color: #537290;
+    }
+
+    & div > .MuiSelect-selectMenu-19 {
+        color: $fontColor;
+    }
+}*/

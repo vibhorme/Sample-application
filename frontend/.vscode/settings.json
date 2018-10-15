@@ -1,0 +1,10 @@
+{
+    // prettier & eslint
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "prettier.disableLanguages": ["js"]
+    // "workbench.colorCustomizations": {
+    //     "statusBar.background": "#151329"
+    // }
+}
