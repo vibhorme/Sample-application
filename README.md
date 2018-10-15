@@ -1,4 +1,4 @@
- Backend(node) consist of
+ #Backend(node) consist of
   
    /register: 
 
@@ -17,7 +17,7 @@
 
    POST: using Token and wordsearch to search for the github Taking Github API to search the required keyword and displaying      top 5 results sorted by stars
 
-  Frontend(Reactjs, redux and css3) consist of
+  #Frontend(Reactjs, redux and css3) consist of
 
    Home: this is the first page at which user is asked for registration or signin.
 
